@@ -29,9 +29,9 @@ namespace IoTDeviceDemo
         DispatcherTimer timer = new DispatcherTimer();
         
         DeviceClient deviceClient;
-        string iothubconnectionstring = "SCIoTDemo.azure-devices.net";
-        string deviceid = "D2CDemo";
-        string devicekey = "RFMqudHRArGRl1hX33xIy0hpoeS/+OBg/bCcF8Hw5QQ=";
+        string iothubconnectionstring = "<Your Azure IoT Hub URL>";
+        string deviceid = "<Device ID>";
+        string devicekey = "<Device Key>";
 
         event EventHandler<string> MessageReceivedEvent;
         
